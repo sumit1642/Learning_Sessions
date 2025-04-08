@@ -1,0 +1,27 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS trash
+*.swp
+*.swo
+
+# Node modules
+client/node_modules/
+server/node_modules/
+
+# Vite & React build outputs (if you ever build the frontend)
+client/dist/
+
+# Env files (if you ever start using them)
+*.env
+.env*
+
+# VSCode or JetBrains junk
+.vscode/
+.idea/
