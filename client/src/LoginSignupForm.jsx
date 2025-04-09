@@ -44,9 +44,9 @@ export const LoginSignupForm = () => {
 				body: JSON.stringify({ username, password }),
 			});
 			const data = await res.json();
-			setMessage(data.msg);
 
 			if (res.ok) {
+				setMessage(data.msg);
 				setAccount(data.account);
 				setUsername("");
 				setPassword("");
