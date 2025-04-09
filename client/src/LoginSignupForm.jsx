@@ -50,6 +50,8 @@ export const LoginSignupForm = () => {
 				setAccount(data.account);
 				setUsername("");
 				setPassword("");
+			} else {
+				setMessage(data.msg)
 			}
 		} catch (error) {
 			console.log(`Something went wrong `, error);
